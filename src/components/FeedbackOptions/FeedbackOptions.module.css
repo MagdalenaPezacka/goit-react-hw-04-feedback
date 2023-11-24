@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0 60px 15px 60px;
+}
+.button {
+  cursor: pointer;
+  padding: 6px;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #c9cfd4;
+  color: #041d4f;
+  transition: all 800ms;
+}
+
+.button:not(:last-child) {
+  margin-right: 10px;
+}
+
+.button:hover {
+  background-color: #041d4f;
+  color: white;
+}
